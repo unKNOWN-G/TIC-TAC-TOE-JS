@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Html Layout">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="unKNOWN">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="flexContainer">
+        <header>
+            <h3>TIC TAC TOE</h3>
+        </header>
+        <table>
+            <tr class="row">
+                <td value="00" class="box"></td>
+                <td value="01" class="box"></td>
+                <td value="02" class="box"></td>
+            </tr>
+            <tr class="row">
+                <td value="10" class="box"></td>
+                <td value="11" class="box"></td>
+                <td value="12" class="box"></td>
+            </tr>
+            <tr class="row">
+                <td value="20" class="box"></td>
+                <td value="21" class="box"></td>
+                <td value="22" class="box"></td>
+            </tr>
+        </table>
+
+        <strong>
+            <p class="message">'X' Starts The Game</p>
+        </strong>
+        <button class="buttonContainer" onclick="resetData()">Play Again</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
